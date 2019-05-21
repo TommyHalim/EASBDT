@@ -1,0 +1,7 @@
+CREATE USER 'monitor'@'%' IDENTIFIED BY 'bdt2019';
+GRANT SELECT on sys.* to 'monitor'@'%';
+FLUSH PRIVILEGES;
+
+CREATE USER 'bdt'@'%' IDENTIFIED BY 'bdt2019';
+GRANT ALL PRIVILEGES on user.* to 'bdt'@'%';
+FLUSH PRIVILEGES;
