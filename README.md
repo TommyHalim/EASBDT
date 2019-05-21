@@ -61,7 +61,7 @@ Setelah selesai save dan exit wp-config.php
 ### d. Enable Redis pada wordpress
 Kembali ke Wordpress, masuk ke setting plugin Redis Object Cache Tekan ```Enable Object Cache```
 Maka akan muncul tampilan seperti berikut:
-![]()
+![](https://github.com/TommyHalim/EASBDT/blob/master/enable.JPG)
 
 
 ### 4. Testing Redis pada Wordpress
